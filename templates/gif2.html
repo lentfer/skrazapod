@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="static/test.css">
+        <title>
+            CV - Rogier
+        </title>
+    </head>
+    <body>
+        <h3>
+            Skrazapod
+        </h3>
+        <p>
+            by Andrea Zavala, Trevor Nogués, and John Lentfer<br>
+            <br>
+
+        </p>
+    </body>
+
+<title>Display Gifs</title>
+{% if name %}
+<p>
+    Your first WikiPage is {{wikiLinks[0]}}.
+</p>
+<iframe src=" {{name[0]}}" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br>
+<p>
+    Your second WikiPage is {{wikiLinks[1]}}.
+</p>
+<iframe src=" {{name[1]}}" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br>
+<p>
+    Your third WikiPage is {{wikiLinks[2]}}.
+</p>
+<iframe src=" {{name[2]}}" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br>
+<p>
+    Your fourth WikiPage is {{wikiLinks[3]}}.
+</p>
+<iframe src=" {{name[3]}}" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br>
+<p>
+    Your fifth WikiPage is {{wikiLinks[4]}}.
+</p>
+<iframe src=" {{name[4]}}" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br>
+<p>
+    Wow! Six degrees of separation, or should I say six <i>links</i> of separation!<br>
+      Your sixth WikiPage is {{wikiLinks[5]}}.
+</p>
+<iframe src=" {{name[5]}}" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+{% endif %}
+</html>
