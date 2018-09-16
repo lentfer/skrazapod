@@ -13,7 +13,7 @@ For windows, use set or $env: instead of export
 
 Then, visit http://127.0.0.1:5000/start
 
-Input a siple word.
+Input a simple word.
 
 Explore!
 
